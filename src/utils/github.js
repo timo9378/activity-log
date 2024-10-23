@@ -120,6 +120,7 @@ async function fetchAndFilterEvents() {
         } else {
             break;
         }
+        break;
     }
 
     filteredEvents = filteredEvents.slice(0, eventLimit);
